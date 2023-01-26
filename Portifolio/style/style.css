@@ -1,0 +1,71 @@
+/* Elements */
+
+html{
+    padding: 1% 22%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+p{
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+      
+    }
+
+a{
+    color: red;
+}
+
+/* IDs */
+
+#caxa1{
+    border-width: 10px;         
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+}
+
+
+#dog{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sol{
+    animation-name: solando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-fill-mode: both;
+}
+/* Classes */
+
+.centro{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* animações */
+
+@keyframes solando{
+    0% {left:200px; top:0px;}
+    25% {left:-200px; top:0px;}
+    50% {left:200px; top:0px;}
+    75% {left:-200px; top:0px;}
+    100% {left:200px; top:0px;}
+}
